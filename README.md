@@ -30,4 +30,4 @@ Welcome to the Hangman Game! This is a simple and fun word-guessing game built u
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone <your-repository-url>
+   git clone (https://github.com/Shivangisriva/Hangman-Game/tree/main)
