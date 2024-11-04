@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hang_THE_Man</title>
+    <link rel="icon" href="./hangman_icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!--main white container-->
+      <div class="hangman">
+        <!--img and text-->
+        <div class="hangman-img">
+          <img src="./images/hangman-1.svg" alt="HANGMAN-IMG" />
+        </div>
+        <h1>HANGMAN GAME</h1>
+      </div>
+      <div class="game-box">
+        <!--text game hint-->
+        <div class="word-display">
+          <ul>
+            <li class="letter"></li>
+            <li class="letter"></li>
+            <li class="letter"></li>
+            <li class="letter"></li>
+            <li class="letter"></li>
+            <li class="letter"></li>
+          </ul>
+        </div>
+        <div class="hint-text">Hint: <b>Name given to the iteration </b></div>
+        <div class="guess-text">Incorrect guesses:<b> 0 / 6</b></div>
+        <div class="keyboard">
+          <button>A</button>
+          <button>B</button>
+          <button>C</button>
+          <button>D</button>
+          <button>E</button>
+          <button>F</button>
+          <button>G</button>
+          <button>H</button>
+          <button>I</button>
+          <button>J</button>
+          <button>K</button>
+          <button>L</button>
+          <button>M</button>
+          <button>N</button>
+          <button>O</button>
+          <button>P</button>
+          <button>Q</button>
+          <button>R</button>
+          <button>S</button>
+          <button>T</button>
+          <button>U</button>
+          <button>V</button>
+          <button>W</button>
+          <button>X</button>
+          <button>Y</button>
+          <button>Z</button>
+        </div>
+        <div class="result-gif" style="display: none;">
+          
+          <img src="" alt="Result GIF">
+          <button id="restart-button" style="display: none;">Restart Game</button>
+      </div>      
+        <script src="./script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
